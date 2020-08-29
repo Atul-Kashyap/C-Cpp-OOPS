@@ -1,4 +1,3 @@
-# C-Cpp-OOPS
 
 # Table of Contents
 - [Features of OOP](#features-of-oop)
