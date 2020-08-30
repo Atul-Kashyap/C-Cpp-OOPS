@@ -1118,6 +1118,9 @@ In C++, delete operator should only be used either for the pointers pointing to 
 1. **Enumerated type (enumeration) is a user-defined data type which can be assigned some limited values.**
 2. **These values are defined by the programmer at the time of declaring the enumerated type.**
 3. **It is also assigned by zero the same as the array. It can also be used with switch statements.**
+4. **The C++ enum constants are static and final implicitly.**
+5. **enum improves type safety, can be traversed, can have fields, constructors and methods, may implement many interfaces but cannot extend any class because it internally extends       Enum class.**
+
 
 ```cpp
 
