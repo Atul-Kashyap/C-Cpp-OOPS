@@ -24,6 +24,7 @@
 - [free vs delete()](#free-vs-delete--)
 - [C Storage Classes](#c-storage-classes)
 - [C Storage Layout](#c-storage-layout)
+- [Enumeration](#Enumeration)
 - [Credits](#credits)
 
 
@@ -1113,6 +1114,39 @@ In C++, delete operator should only be used either for the pointers pointing to 
 **Initialized data (ds)**: DS = **D**ata **S**egment; explicitly initialized global and static variables
 
 **Text**: binary of the compiled program, read-only; sharable so that only a single copy needs to be in memory for frequently executed programs such as text editors etc
+
+# Enumeration
+1. **Enumerated type (enumeration) is a user-defined data type which can be assigned some limited values.**
+2. **These values are defined by the programmer at the time of declaring the enumerated type.**
+3. **It is also assigned by zero the same as the array. It can also be used with switch statements.**
+
+```cpp
+
+#include <bits/stdc++.h> 
+using namespace std; 
+
+int main() 
+{ 
+	// Defining enum Gender 
+	enum Gender { Male, 
+				Female }; 
+
+	// Creating Gender type variable 
+	Gender gender = Male; 
+
+	switch (gender) { 
+	case Male: 
+		cout << "Gender is Male"; 
+		break; 
+	case Female: 
+		cout << "Gender is Female"; 
+		break; 
+	default: 
+		cout << "Value can be Male or Female"; 
+	} 
+	return 0; 
+} 
+```
 
 # Credits
 
