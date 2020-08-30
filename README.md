@@ -1,5 +1,4 @@
-
-#Table of Contents
+# Table of Contents
 - [Features of OOP](#features-of-oop)
 - [Smart Pointers](#smart-pointers)
 - [Name Mangling and Externs](#name-mangling-and-externs)
@@ -1145,8 +1144,12 @@ int main()
 		cout << "Value can be Male or Female"; 
 	} 
 	return 0; 
-} 
+}
 ```
+```
+ Output: Gender is Male 
+```
+
 
 ```cpp
 #include <bits/stdc++.h> 
@@ -1176,6 +1179,11 @@ int main()
 	return 0; 
 } 
 ```
+```
+ Output: 0 1 2 3 4 5 6 7 8 9 10 11
+```
+
+
 
 # Credits
 
