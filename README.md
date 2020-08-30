@@ -1,6 +1,5 @@
 
-# Table of Contents
-- [# Table of Contents]
+[# Table of Contents])(#Table of Contents)
 - [Features of OOP](#features-of-oop)
 - [Smart Pointers](#smart-pointers)
 - [Name Mangling and Externs](#name-mangling-and-externs)
