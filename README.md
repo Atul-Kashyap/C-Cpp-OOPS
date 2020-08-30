@@ -1191,6 +1191,9 @@ int main()
 # Coupling and Cohesion
 
 **Coupling:** Coupling is the measure of the degree of interdependence between the modules. A good software will have low coupling.
+
+**Types of Coupling:**
+
 1.**Data Coupling:** If the dependency between the modules is based on the fact that they communicate by passing only data, then the modules are said to be data coupled. In data coupling, the components are independent to each other and communicating through data. 
 
 2.**Control Coupling:** If the modules communicate by passing control information, then they are said to be control coupled. It can be bad if parameters indicate completely different behavior and good if parameters allow factoring and reuse of functionality. Example- sort function that takes comparison function as an argument.
