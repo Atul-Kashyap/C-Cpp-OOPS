@@ -24,8 +24,8 @@
 - [C Storage Classes](#c-storage-classes)
 - [C Storage Layout](#c-storage-layout)
 - [Enumeration](#Enumeration)
-- [Coupling and Cohesion](#Coupling and Cohesion)
-- [# Modularization](# Modularization)
+- [Coupling and Cohesion](#Coupling-and-Cohesion)
+- [ Modularization](#Modularization)
 - [Credits](#credits)
 
 
