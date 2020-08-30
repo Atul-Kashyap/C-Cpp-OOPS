@@ -1151,3 +1151,6 @@ int main()
 # Credits
 
 Portions of this note is taken from geeksforgeeks, Leetcode, learncpp website and, Cracking the Coding Interview and Object-Oriented Programming in C++, Fourth Edition book.
+
+
+-[Table of Contents](#Table of Contents)
