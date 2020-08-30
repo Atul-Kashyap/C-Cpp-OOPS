@@ -1,5 +1,5 @@
 
-[# Table of Contents])(#Table of Contents)
+#Table of Contents]
 - [Features of OOP](#features-of-oop)
 - [Smart Pointers](#smart-pointers)
 - [Name Mangling and Externs](#name-mangling-and-externs)
@@ -1148,9 +1148,38 @@ int main()
 } 
 ```
 
+```cpp
+#include <bits/stdc++.h> 
+using namespace std; 
+
+// Defining enum Year 
+enum year { Jan, 
+			Feb, 
+			Mar, 
+			Apr, 
+			May, 
+			Jun, 
+			Jul, 
+			Aug, 
+			Sep, 
+			Oct, 
+			Nov, 
+			Dec }; 
+int main() 
+{ 
+	int i; 
+
+	// Traversing the year enum 
+	for (i = Jan; i <= Dec; i++) 
+		cout << i << " "; 
+
+	return 0; 
+} 
+```
+
 # Credits
 
 Portions of this note is taken from geeksforgeeks, Leetcode, learncpp website and, Cracking the Coding Interview and Object-Oriented Programming in C++, Fourth Edition book.
 
 
--[Table of Contents](#Table of Contents)
+
